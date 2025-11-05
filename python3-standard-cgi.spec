@@ -1,3 +1,4 @@
+# NOTE: currently PLD uses cgi and cgitb fork from python3-legacy-cgi.spec
 #
 # Conditional build:
 %bcond_without	tests	# unit tests
@@ -6,7 +7,7 @@ Summary:	Standard library cgi redistribution. "dead battery"
 Summary(pl.UTF-8):	Redystrybucja "zużytej baterii" - cgi z biblioteki standardowej
 Name:		python3-standard-cgi
 Version:	3.13.0
-Release:	1
+Release:	0.1
 License:	PSF
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/standard-cgi/
